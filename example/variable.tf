@@ -1,4 +1,4 @@
 variable "iam_name"{
-    type = set(any)
+    type = set(string)
     description = "Enter IAM name set"
 }
